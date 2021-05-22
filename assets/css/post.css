@@ -1,0 +1,99 @@
+.container1{
+    display: grid;
+    grid-template-columns: 0.5fr 5fr;
+}
+/* .item{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+} */
+
+#option ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: hsla(0, 0%, 10%, 0.671);
+    font-family: 'Laila', sans-serif;
+    transition: color;
+    transition-duration: 0.3s;
+}
+#option ul li a:hover{
+    color: hsla(0, 0%, 0%, 1);
+}
+#option ul{
+    list-style-type: none;
+}
+#option ul li{
+    padding: 30px 0px;
+}
+#option{
+    width: 250px;
+    background: white;
+}
+h1{
+    padding-left: 26px;
+padding-top: 20px;
+font-family: 'Candal', sans-serif;
+}
+#top{
+    display: flex;
+    flex-direction: row;
+}
+
+#logout{
+    position: relative;
+top: 3px;
+}
+
+#file{
+    width: 41px;
+padding: 40px 30px;
+cursor: pointer;
+transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+#file:hover{
+    transform: translateY(-1.7px);
+}
+#main input{
+  display: none;
+}
+
+.language-css{
+height: 300px; 
+overflow-y: scroll;
+width: 100%x; 
+overflow-x: scroll;
+display: flex;
+flex-wrap: wrap;
+}
+
+.submit{
+width: 100px;
+padding: 10px 0px;
+background: hsl(0, 100%, 73%);
+color: white;
+border-radius: 6px;
+border: 1px solid hsl(0, 100%, 73%);
+margin: 40px 50px;
+cursor: pointer;
+
+transition: position;
+transition-duration: 0.3s;
+}
+
+.submit:hover{
+background-color: hsl(0, 100%, 69%);
+}  
+#post{
+font-weight: bolder;
+text-shadow: 2px 2px 3px #cecece;
+}
+#top img{
+width: 30px;
+height: 30px;
+padding: 44px 20px;
+cursor: pointer;
+display: none;
+}

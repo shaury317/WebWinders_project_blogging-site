@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url('../img/bg.jpg');
+    background-size: cover; 
+    background-position: center; */
+}
+
+.login{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    /* height: 465px; */
+}
+@media screen and (max-width: 300px){
+  .login{
+    zoom: 0.75;
+    -moz-transform: scale(1rem);
+}
+}
+.login h1{
+    color: #ff7777;
+    margin-bottom: 30px
+}
+
+.inp{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+.loginbtn{
+    color: white;
+    background-color: #ff7777;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    transition-property: background;
+    transition-duration: 0.3s;
+}
+
+.loginbtn:hover{
+    background-color: hsl(0, 100%, 69%);
+}
+
+#google{
+    background-color: hsl(202, 100%, 55%);
+    /* position: relative;
+    top: -145px; */
+    transition-property: background;
+    transition-duration: 0.3s;
+}
+
+#google:hover{
+    background-color: hsl(202, 100%, 51%);
+}
+
+a{
+    text-decoration: none;
+    color: hsl(276, 100%, 63%);
+}
+
+hr{
+    margin-top: 30px;
+    width: 80%;
+    /* position: relative;
+    top: -55px; */
+}
+
+#or{
+    background: #fff;
+    width:30px;
+    margin: -30px auto 10px;
+}
+
+/* #alt{
+    position: relative;
+    top: -145px;
+} */
+
+#loginlogo{
+    width: 70px;
+    margin: 0px auto -5px;
+}

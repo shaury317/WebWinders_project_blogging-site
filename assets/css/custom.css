@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.logincontainer:hover,.forgetpassword_con:hover,
+.sign-up_con:hover{
+    border-width: 4px;
+    border: rgb(255, 208, 0);
+    border-style: solid ;
+    border-radius: 20px;
+    
+}
+.logincontainer,.forgetpassword_con,
+.sign-up_con{
+    align-self: center;
+    margin-left: auto;
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    border: rgb(144, 144, 144);
+    border-style: solid ;
+    border-width: 3px;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.form{
+    display:flex;
+
+    flex-direction: column;
+    padding: 10px;
+
+}
+.form_heading{
+    display: flex;
+    justify-content: center;
+}
+input[type="button"]{
+  
+    background-image: linear-gradient(rgb(250, 204, 204,0.7),rgb(202, 140, 140,0.7));
+    border-radius: 10px;
+    padding: 8px 28px;
+    font-size: medium;
+}
+input[type="button"]:hover,input[type="submit"]:hover{
+    background-image: linear-gradient(rgb(202, 140, 140,0.7),rgb(250, 204, 204,0.7));
+    
+}
+label{
+    font-family: cursive;
+    font-weight: 200;
+}
+.form_input{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: large;
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+}
+
+.form_input:active{
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+}
+
+.photo_img{
+    height: 200px !important;
+    width: 200px !important;
+}
+.photo_name{
+    text-align: 15px;
+    color: white;
+    padding: 10px 30px;
+}
